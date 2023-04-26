@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    color: #0e001e;
+}
+
+.btn {
+    border: none;
+    background: #0e001e;
+    color: #fff;
+}
+
+.container {
+    background: #fff;
+    width: 800px;
+    height: 100vh;
+    margin: 2rem auto;
+    border-radius: 15px;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 0 0.8rem 0;
+}
+
+.header p {
+    text-align: center;
+    background: #e0e0e0;
+    width: 250px;
+    margin: 1rem auto;
+    padding: 1rem 0.8rem;
+    border-radius: 50px;
+}
+
+.header span {
+    background: #fff;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 50px;
+}
+
+#leaderboard .user-img img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+#leaderboard .user-img span {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#leaderboard .user-img {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #ccc;
+    margin: 2rem 2rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    border-radius: 50px;
+}
+
+#leaderboard .user-name {
+    font-size: 0.7rem;
+    padding: 2rem 0;
+    line-height: 1.4;
+}
+
+#leaderboard .user-name span {
+    color: #888;
+}
+
+#leaderboard .card {
+    padding: 2rem;
+}
+
+#leaderboard .content-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    gap: 1rem;
+}
+
+#leaderboard .user-works img {
+    width: 130px;
+    height: 90px;
+    border-radius: 15px;
+    padding: 0.3rem;
+}
